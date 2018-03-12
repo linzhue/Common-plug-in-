@@ -4,13 +4,10 @@
 ```bash
 
 	├── basetree # 基础树形组件
-	├── customui
 	├── deptree # 部门人员树形组件
 	├── dialog # 弹出框组件
-	├── dragdrop
 	├── grid # 分页表格组件
 	├── pagination # 分页组件
-	├── popover
 	├── print # 打印组件
 	├── organCheck # 机构代码名称校验组件
 	├── organSearch # 机构代码名称查询组件
@@ -22,6 +19,4 @@
 	├── unitselect-mpage # 部门分类多页选择组件
 	├── unitselect-spage # 部门分类单页选择组件
 	├── uploader # 上传下载组件
-	├── windowdiv
-	└── windowTab 
 ```
