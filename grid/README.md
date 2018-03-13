@@ -1,7 +1,7 @@
 # 分页表格组件
 
 ## 示意图
-![分页表格](../../assets/imgs/grid/grid.png)
+![分页表格](./grid.png)
 
 ## 依赖
 ```html
