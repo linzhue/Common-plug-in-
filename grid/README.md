@@ -15,14 +15,14 @@ NerisUI
 <!-- css -->
 <link href="../static/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 <link href="../static/neris-ui/1.8.0/css/style.css" rel="stylesheet">
-<link href="../static/neris-widget/grid/1.18/css/neris.grid.css" rel="stylesheet">
+<link href="../static/neris-widget/grid/1.18/css/jquery.grid.css" rel="stylesheet">
 <!-- 引入的UI规范js文件 -->
 <script src="../static/jquery/1.11.1/jquery.min.js"></script>
 <script src="../static/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <!-- 弹出框组件 -->
-<script src="../static/neris-widget/dialog/1.17/js/neris.dialog.js"></script>
+<script src="../static/neris-widget/dialog/1.17/js/jquery.dialog.js"></script>
 <!-- 分页表格组件 -->
-<script src="../static/neris-widget/grid/1.18/js/neris.grid.js"></script>
+<script src="../static/neris-widget/grid/1.18/js/jquery.grid.js"></script>
 ```
 ## 方法调用
 ```html
