@@ -1,4 +1,3 @@
-# Common-plug-in-
 # 公共组件结构
 
 ```bash
