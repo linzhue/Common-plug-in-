@@ -1,0 +1,56 @@
+/*
+ * neris.datatables's styles v2.3.1
+ */
+
+div.dataTables_wrapper div.dataTables_paginate {
+	margin: 0;
+    white-space: nowrap;
+    text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 8px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+div.dataTables_wrapper div.dataTables_processing {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: -26px;
+    text-align: center;
+    padding: 1em 0;
+    z-index: 2;
+}
+
+div.dataTables_wrapper div.dataTables_info input.jump-page {
+	width: 10%;
+	border: rgba(212,212,212,1.00) 1px solid
+}
+
+div.dataTables_wrapper .dataTables_empty {
+	color:#ff0000;
+}
+
+table.datatables-loading {
+	background: #666 url(../img/load.gif) no-repeat 50% 50% !important;
+	
+}
+
+div.dataTables_scrollBody > table > tbody > tr:first-child > td, 
+div.dataTables_scrollBody > table > tbody > tr:first-child > th {
+    padding-top: 9px;
+}
+
+/* 修复表头高度符合UI*/
+div.dataTables_wrapper table.dataTable td,
+div.dataTables_wrapper table.dataTable th {
+	height: 0;
+}
+
+div.dataTables_wrapper table.dataTable thead tr {
+  height: 40px;
+}

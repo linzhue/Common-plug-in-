@@ -1,0 +1,47 @@
+﻿/*-------------------------------------
+nerisTree Style
+
+version:    1.0
+author:     PengHui.Gong
+-------------------------------------*/
+/*基础树形样式*/
+
+#nerisTree {
+	position: relative;
+}
+#nerisTree .left_tree {
+	height:100%;
+	position: relative;
+	float: left;
+}
+#nerisTree .right_tree {
+	height:100%;
+	padding-left: 30px;
+/* 	display:none; */
+	overflow:auto;
+}
+#nerisTree .left_tree .left_top_sSearch{
+	height: 8%;
+}
+#nerisTree .left_tree .left_top_sSearch input {
+	height: 32px;
+	border: 1px solid #BBB;
+	border-right: none;
+}
+#nerisTree .left_tree .left_middle_data{
+	margin-top:10px;
+	height:92%;
+	overflow:auto;
+}
+
+.ztree * {
+		padding: 0;
+	    margin: 0;
+	    font-size: 14px;
+	    font-family: "Microsoft YaHei","微软雅黑","\5FAE\8F6F\96C5\9ED1","\9ED1\4F53",Arial;
+}
+
+.ztree li span.button.ico_close_ico_docu{
+	background-position: -147px 0;
+    vertical-align: top;
+}

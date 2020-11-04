@@ -1,0 +1,10 @@
+﻿/*部门人员树形样式*/
+.nerisTree {position: relative;top: 40px;padding: 15px;}
+#sSearchParam {width:114px;}
+.nerisTree .l-n-t {height:489px;}
+.nerisTree .r-n-t {height:542px;}
+.nerisTree .left_top_sSearch{height: 40px;}
+.nerisTree .left_top_sSearch input {height: 32px;border: 1px solid #BBB;border-right: none;}
+.ztree * {padding: 0;margin: 0;font-size: 14px;font-family: "Microsoft YaHei","微软雅黑","\5FAE\8F6F\96C5\9ED1","\9ED1\4F53",Arial;}
+.ztree li span.button.ico_close_ico_docu{background-position: -147px 0;vertical-align: top;}
+.tree-loading {background:url("../images/tree-loading.gif") no-repeat; width: 200px; height: 20px}
