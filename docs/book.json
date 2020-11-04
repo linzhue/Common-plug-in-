@@ -1,0 +1,43 @@
+{
+    "author": "gongph",
+    "title": "公共组件API文档",
+    "author" : "gongph",
+	"description" : "公共组件API文档",
+	"generator": "site",
+	"gitbook" : "2.x.x",
+	"language" : "zh-hans",
+	"styles": {
+        "website": "styles/website.css"
+    },
+	"links" : { 
+	    "sidebar" : {
+	        "公共组件API文档" : "javascript:void(0);"
+	    }
+	},
+     "plugins": [
+         "-search",
+         "-lunr",
+         "-sharing",
+         "include-codeblock",
+         "toggle-chapters",
+         "tbfed-pagefooter",
+         "asciitree",
+         "copy-code-button",
+         "navigator",
+         "expandable-chapters-small",
+         "anchors",
+         "custom-favicon"
+     ],
+     "pluginsConfig": {
+    	 "tbfed-pagefooter": {
+	         "copyright":"Copyright ©2016 中央监管信息平台公共组件组 | <a href='http://nerisdev.csrc.gov.cn:2174/tech-widget-test'>公共组件测试系统</a>",
+	         "modify_label": "文件修订时间："
+	     },
+	     "asciitree": {
+            "leadingChar": "no need, because plugin will guess leadingChar.",
+            "trimRight": true
+        },
+        "expandable-chapters-small":{},
+        "favicon": "assets/imgs/favicon.ico"
+     }
+}

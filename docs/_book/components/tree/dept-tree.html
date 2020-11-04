@@ -1,0 +1,760 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <title>部门人员树形组件 · 公共组件API文档</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="author" content="gongph">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-navigator/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../nerisSelectUntils/" />
+    
+    
+    <link rel="prev" href="base-tree.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="javascript:void(0);" target="_blank" class="custom-link">公共组件API文档</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../static-structure.html">
+            
+                <a href="../../static-structure.html">
+            
+                    
+                    组件静态资源结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../nerisPagination/nerisPagination.html">
+            
+                <a href="../nerisPagination/nerisPagination.html">
+            
+                    
+                    分页组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../grid/grid.html">
+            
+                <a href="../grid/grid.html">
+            
+                    
+                    分页表格组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../datatables/">
+            
+                <a href="../datatables/">
+            
+                    
+                    数据表格组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../datatables/api.html">
+            
+                <a href="../datatables/api.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../datatables/base-config.html">
+            
+                <a href="../datatables/base-config.html">
+            
+                    
+                    基础配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../datatables/indexing.html">
+            
+                <a href="../datatables/indexing.html">
+            
+                    
+                    索引列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../datatables/checking.html">
+            
+                <a href="../datatables/checking.html">
+            
+                    
+                    勾选列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../datatables/visible.html">
+            
+                <a href="../datatables/visible.html">
+            
+                    
+                    隐藏/显示列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../datatables/complex-header.html">
+            
+                <a href="../datatables/complex-header.html">
+            
+                    
+                    复合表头
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../uploader/">
+            
+                <a href="../uploader/">
+            
+                    
+                    上传下载组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../dialogs/">
+            
+                <a href="../dialogs/">
+            
+                    
+                    弹出框组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../dialogs/base-dialog.html">
+            
+                <a href="../dialogs/base-dialog.html">
+            
+                    
+                    通用消息弹出框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../dialogs/info-dialog.html">
+            
+                <a href="../dialogs/info-dialog.html">
+            
+                    
+                    一般信息弹出框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../dialogs/warn-dialog.html">
+            
+                <a href="../dialogs/warn-dialog.html">
+            
+                    
+                    警告信息弹出框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../dialogs/danger-dialog.html">
+            
+                <a href="../dialogs/danger-dialog.html">
+            
+                    
+                    危险信息弹出框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../dialogs/success-dialog.html">
+            
+                <a href="../dialogs/success-dialog.html">
+            
+                    
+                    成功信息弹出框
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    树形组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="base-tree.html">
+            
+                <a href="base-tree.html">
+            
+                    
+                    基础树形组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8.2" data-path="dept-tree.html">
+            
+                <a href="dept-tree.html">
+            
+                    
+                    部门人员树形组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../nerisSelectUntils/">
+            
+                <a href="../nerisSelectUntils/">
+            
+                    
+                    部门分类选择
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../nerisSelectUntils/nerisSelectUnits.html">
+            
+                <a href="../nerisSelectUntils/nerisSelectUnits.html">
+            
+                    
+                    部门分类选择组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../nerisSelectUntils/nerisUnitsSinglePage.html">
+            
+                <a href="../nerisSelectUntils/nerisUnitsSinglePage.html">
+            
+                    
+                    部门分类单页选择组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../nerisSelectUntils/nerisUnitsMultiPage.html">
+            
+                <a href="../nerisSelectUntils/nerisUnitsMultiPage.html">
+            
+                    
+                    部门分类多页选择组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../search/">
+            
+                <a href="../search/">
+            
+                    
+                    多行查询组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../scrollbar/scrollbar.html">
+            
+                <a href="../scrollbar/scrollbar.html">
+            
+                    
+                    滚动条组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../roll/roll.html">
+            
+                <a href="../roll/roll.html">
+            
+                    
+                    滚动Tab签组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../print/print.html">
+            
+                <a href="../print/print.html">
+            
+                    
+                    打印组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../popover/popover.html">
+            
+                <a href="../popover/popover.html">
+            
+                    
+                    主体关联信息查询组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../organSearch/organ-search.html">
+            
+                <a href="../organSearch/organ-search.html">
+            
+                    
+                    机构代码名称查询组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../organCheck/organ-check.html">
+            
+                <a href="../organCheck/organ-check.html">
+            
+                    
+                    机构代码名称校验组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >部门人员树形组件</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#x6811;&#x5F62;&#x7EC4;&#x4EF6;"><a name="&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#x6811;&#x5F62;&#x7EC4;&#x4EF6;" class="plugin-anchor" href="#&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#x6811;&#x5F62;&#x7EC4;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#x6811;&#x5F62;&#x7EC4;&#x4EF6;</h1><h2 id="&#x793A;&#x610F;&#x56FE;"><a name="&#x793A;&#x610F;&#x56FE;" class="plugin-anchor" href="#&#x793A;&#x610F;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x793A;&#x610F;&#x56FE;</h2><p><img alt="&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#x6811;&#x5F62;&#x7EC4;&#x4EF6;" src="../../assets/imgs/tree/dept-tree.png"></p><h2 id="&#x4F9D;&#x8D56;"><a name="&#x4F9D;&#x8D56;" class="plugin-anchor" href="#&#x4F9D;&#x8D56;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x4F9D;&#x8D56;</h2><pre><code>jQuery
+bootstrap
+NerisUI</code></pre>
+<h2 id="&#x9875;&#x9762;&#x5F15;&#x5165;"><a name="&#x9875;&#x9762;&#x5F15;&#x5165;" class="plugin-anchor" href="#&#x9875;&#x9762;&#x5F15;&#x5165;"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x9875;&#x9762;&#x5F15;&#x5165;</h2><pre><code class="lang-html"><span class="hljs-comment">&lt;!-- &#x5F15;&#x5165;&#x7684;&#x89C4;&#x8303;css&#x6587;&#x4EF6; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;../static/neris-widget/windowdiv/1.17/css/jquery.windowdiv.css&quot;</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;../static/mCustomScrollbar/3.1.0/jquery.mCustomScrollbar.css&quot;</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span>/&gt;</span>
+
+<span class="hljs-comment">&lt;!--&#x5F15;&#x5165;&#x7684;&#x89C4;&#x8303;js&#x6587;&#x4EF6; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;../static/neris-widget/windowdiv/1.17/js/jquery.windowdiv.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;../static/neris-widget/customui/1.19/js/customui.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;../static/mCustomScrollbar/3.1.0/jquery.mCustomScrollbar.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!--&#x5F15;&#x5165;&#x7684;&#x90E8;&#x95E8;&#x6811;&#x5F62;&#x7EC4;&#x4EF6;&#x6587;&#x4EF6; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;../static/neris-widget/deptree/1.26/js/neris.deptree.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<h2 id="&#x65B9;&#x6CD5;&#x8C03;&#x7528;"><a name="&#x65B9;&#x6CD5;&#x8C03;&#x7528;" class="plugin-anchor" href="#&#x65B9;&#x6CD5;&#x8C03;&#x7528;"><i class="fa fa-link" aria-hidden="true"></i></a>4. &#x65B9;&#x6CD5;&#x8C03;&#x7528;</h2><pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">var</span> yourMethod = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">callbackData</span>) </span>{
+         <span class="hljs-comment">/**
+          * callbackData&#x662F;&#x4F60;&#x6240;&#x9009;&#x62E9;&#x540E;&#x7684;&#x6570;&#x7EC4;&#x5BF9;&#x8C61;
+          * &#x6839;&#x636E;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x636E;&#x5904;&#x7406;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x4EE3;&#x7801;
+          */</span>
+    }
+
+    <span class="hljs-keyword">var</span> settings = {
+        selectType: <span class="hljs-string">&apos;dept&apos;</span>,<span class="hljs-comment">//&#x9009;&#x62E9;&#x7C7B;&#x578B;</span>
+        rootId: <span class="hljs-string">&apos;300&apos;</span>,<span class="hljs-comment">//&#x6307;&#x5B9A;&#x6839;&#x8282;&#x70B9;</span>
+        handleFun: <span class="hljs-string">&apos;yourMethod&apos;</span>,
+        showDatas: [ <span class="hljs-comment">//&#x6570;&#x636E;&#x56DE;&#x663E;</span>
+            {id: <span class="hljs-string">&apos;3260001&apos;</span>}, 
+            {id: <span class="hljs-string">&apos;3230002&apos;</span>}
+        ]
+        filterDatas : [<span class="hljs-string">&apos;123&apos;</span>, <span class="hljs-string">&apos;456&apos;</span>] <span class="hljs-comment">//&#x6570;&#x636E;&#x8FC7;&#x6EE4;&#xFF0C;&#x6307;&#x5B9A; id&#x4E3A; &apos;123&apos;, &apos;456&apos;&#x7684;&#x90E8;&#x95E8;/&#x4EBA;&#x5458;&#x4E0D;&#x663E;&#x793A;</span>
+        ...
+    }
+    $.nerisTree.initWindowTree(settings);
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+<blockquote><p><strong>&#x63D0;&#x793A;&#xFF1A;</strong> yourMethod&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x3002;callbackData&#x662F;&#x4F60;&#x6240;&#x9009;&#x62E9;&#x540E;&#x7684;&#x6570;&#x7EC4;&#x5BF9;&#x8C61;&#xFF0C;&#x6839;&#x636E;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x636E;&#x5904;&#x7406;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x4EE3;&#x7801;&#x3002;settings&#xFF1A;&#x521D;&#x59CB;&#x5316;&#x53C2;&#x6570;&#x5BF9;&#x8C61;&#xFF0C;&#x8BE6;&#x89C1;settings&#x53C2;&#x6570;&#x914D;&#x7F6E;&#x3002;</p></blockquote><h2 id="settings&#x53C2;&#x6570;&#x914D;&#x7F6E;"><a name="settings&#x53C2;&#x6570;&#x914D;&#x7F6E;" class="plugin-anchor" href="#settings&#x53C2;&#x6570;&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>5. settings&#x53C2;&#x6570;&#x914D;&#x7F6E;</h2><h3 id="selectType"><a name="selectType" class="plugin-anchor" href="#selectType"><i class="fa fa-link" aria-hidden="true"></i></a>5.1. selectType</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>String</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x662F;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>dept</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x9009;&#x62E9;&#x7C7B;&#x578B;&#x3002;dept&#xFF1A;&#x53EA;&#x9009;&#x90E8;&#x95E8;&#xFF1B;pers&#xFF1A;&#x53EA;&#x9009;&#x4EBA;&#x5458;
+</li></ul>
+<h3 id="checkType"><a name="checkType" class="plugin-anchor" href="#checkType"><i class="fa fa-link" aria-hidden="true"></i></a>5.2. checkType</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>Boolean</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x662F;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>multi</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x9009;&#x62E9;&#x6A21;&#x5F0F;&#x3002;&#x2018;multi&#x2019; : &#x591A;&#x9009;&#xFF1B;&#x2018;single&#x2019; : &#x5355;&#x9009;
+</li></ul>
+<h3 id="handleFun"><a name="handleFun" class="plugin-anchor" href="#handleFun"><i class="fa fa-link" aria-hidden="true"></i></a>5.3. handleFun</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>String</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x662F;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>null</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x7528;&#x6765;&#x5904;&#x7406;&#x81EA;&#x5DF1;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x7684;&#x51FD;&#x6570;&#x5B57;&#x7B26;&#x4E32;
+</li></ul>
+<h3 id="isEcho"><a name="isEcho" class="plugin-anchor" href="#isEcho"><i class="fa fa-link" aria-hidden="true"></i></a>5.4. isEcho</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>String</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x662F;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>true</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x662F;&#x5426;&#x53CD;&#x663E;
+</li></ul>
+<h3 id="expand"><a name="expand" class="plugin-anchor" href="#expand"><i class="fa fa-link" aria-hidden="true"></i></a>5.5. expand</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>Boolean</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x662F;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>true</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x662F;&#x5426;&#x5C55;&#x5F00;
+</li></ul>
+<h3 id="level"><a name="level" class="plugin-anchor" href="#level"><i class="fa fa-link" aria-hidden="true"></i></a>5.6. level</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>String</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x5426;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>&#x4E0D;&#x9650;&#x5236;</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x663E;&#x793A;&#x5C42;&#x7EA7;
+</li></ul>
+<h3 id="rootId"><a name="rootId" class="plugin-anchor" href="#rootId"><i class="fa fa-link" aria-hidden="true"></i></a>5.7. rootId</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>String</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x662F;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>&apos;&apos;</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x6307;&#x5B9A;&#x6839;&#x8282;&#x70B9;,&#x5982;&#x679C;&#x6307;&#x5B9A;&#x591A;&#x4E2A;&#x6839;&#x8282;&#x70B9;&#x7528;&#x9017;&#x53F7;&#x9694;&#x5F00;&#x3002;&#x4F8B;&#x5982;&#xFF1A;rootId : &apos;30016,30017&apos;;
+</li></ul>
+<h3 id="title"><a name="title" class="plugin-anchor" href="#title"><i class="fa fa-link" aria-hidden="true"></i></a>5.8. title</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>String</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x5426;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>&apos;&apos;</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x5F39;&#x51FA;&#x7A97;&#x53E3;&#x7684;&#x6807;&#x9898;
+</li></ul>
+<h3 id="echoData"><a name="echoData" class="plugin-anchor" href="#echoData"><i class="fa fa-link" aria-hidden="true"></i></a>5.9. echoData</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>Array</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x5426;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>[]</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x6570;&#x636E;&#x56DE;&#x663E;&#x3002;&#x8001;&#x7248;&#x672C;&#x7684;&#x6570;&#x636E;&#x56DE;&#x663E;&#x5904;&#x7406;&#xFF0C;&#x8BE5;&#x5C5E;&#x6027;&#x53EA;&#x662F;&#x628A;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x5728;&#x5F53;&#x524D;window&#x5BF9;&#x8C61;&#x4E0A;&#x3002;<br>&#x5982;&#x679C;&#x505A;&#x7F16;&#x8F91;&#x7B49;&#x64CD;&#x4F5C;&#xFF0C;&#x6570;&#x636E;&#x65E0;&#x6CD5;&#x56DE;&#x663E;&#xFF0C;&#x8BF7;&#x4F7F;&#x7528; <code>showDatas</code> &#x53C2;&#x6570;&#x3002;
+</li></ul>
+<h3 id="filterDatas"><a name="filterDatas" class="plugin-anchor" href="#filterDatas"><i class="fa fa-link" aria-hidden="true"></i></a>5.10. filterDatas</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>Array</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x5426;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>[]</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x6570;&#x636E;&#x8FC7;&#x6EE4;&#x3002;&#x6307;&#x5B9A;&#x90E8;&#x95E8;/&#x4EBA;&#x5458;&#x4E0D;&#x663E;&#x793A;
+<pre><code class="lang-html">$.nerisTree.initWindowTree({
+  ...
+  filterDatas: [&apos;123&apos;, &apos;456&apos;] //&#x6570;&#x636E;&#x8FC7;&#x6EE4;&#x3002;&#x6307;&#x5B9A; id&#x4E3A; &apos;123&apos;, &apos;456&apos;&#x7684;&#x90E8;&#x95E8;/&#x4EBA;&#x5458;&#x4E0D;&#x663E;&#x793A;
+  ...
+});</code></pre>
+</li></ul>
+<h3 id="showDatas"><a name="showDatas" class="plugin-anchor" href="#showDatas"><i class="fa fa-link" aria-hidden="true"></i></a>5.11. showDatas</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>Array</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x5426;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>[]</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x6570;&#x636E;&#x56DE;&#x663E;&#x3002;&#x56DE;&#x663E;&#x7684;&#x6570;&#x636E;&#x9700;&#x8981;&#x7528;&#x6237;&#x4ECE;&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x67E5;&#x8BE2;&#xFF0C;&#x6309;&#x7167;&#x683C;&#x5F0F;&#x8981;&#x6C42;&#x4F20;&#x7ED9;&#x8BE5;&#x53C2;&#x6570;&#x5373;&#x53EF;&#x3002;&#x4F8B;&#x5982;
+<pre><code class="lang-js"><span class="hljs-comment">// &#x5982;&#x679C;&#x9009;&#x62E9;&#x7684;&#x673A;&#x6784;&#xFF1A;</span>
+$.nerisTree.initWindowTree({
+  ...
+  showDatas: [<span class="hljs-comment">// &#x6570;&#x7EC4;&#x5BF9;&#x8C61;&#x3002;id: &#x90E8;&#x95E8;&#x7F16;&#x53F7;</span>
+      {id: <span class="hljs-string">&apos;326001&apos;</span>},
+      {id: <span class="hljs-string">&apos;323002&apos;</span>}
+  ] 
+  ...
+});
+<span class="hljs-comment">// &#x5982;&#x679C;&#x9009;&#x62E9;&#x7684;&#x4EBA;&#x5458;&#xFF1A;</span>
+$.nerisTree.initWindowTree({
+  ...
+  showDatas: [<span class="hljs-comment">// &#x6570;&#x7EC4;&#x5BF9;&#x8C61;&#x3002;id: &#x4EBA;&#x5458;&#x7F16;&#x53F7;&#xFF0C;pid: &#x4EBA;&#x5458;&#x6240;&#x5C5E;&#x90E8;&#x95E8;&#x6216;&#x5904;&#x5BA4;&#x7F16;&#x53F7;</span>
+      {id: <span class="hljs-string">&apos;11&apos;</span>, pid: <span class="hljs-string">&apos;1&apos;</span>},
+      {id: <span class="hljs-string">&apos;22&apos;</span>, pid: <span class="hljs-string">&apos;2&apos;</span>}
+  ] 
+  ...
+});</code></pre>
+</li></ul>
+<h3 id="showParentNode"><a name="showParentNode" class="plugin-anchor" href="#showParentNode"><i class="fa fa-link" aria-hidden="true"></i></a>5.12. showParentNode</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>Boolean</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x5426;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>false</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong>&#x53F3;&#x4FA7;&#x8868;&#x683C;&#x662F;&#x5426;&#x663E;&#x793A;&#x7236;&#x7EA7;&#x8282;&#x70B9;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E0D;&#x663E;&#x793A;&#x3002;&#x5F53;<code>selectType = &apos;dept&apos;</code> &#x65F6;&#x6709;&#x6548;&#x3002;
+</li></ul>
+<h3 id="activeFlag"><a name="activeFlag" class="plugin-anchor" href="#activeFlag"><i class="fa fa-link" aria-hidden="true"></i></a>5.13. activeFlag</h3><ul><li><strong>&#x7C7B;&#x578B; &#xFF1A;</strong><code>Boolean</code>|<strong>&#x662F;&#x5426;&#x5FC5;&#x586B; &#xFF1A;</strong><code>&#x5426;</code>|<strong>&#x9ED8;&#x8BA4;&#x503C; &#xFF1A;</strong><code>true</code>
+</li>
+<li><strong>&#x63CF;&#x8FF0; &#xFF1A;</strong> <code>true</code> &#x663E;&#x793A;&#x6709;&#x6548;&#x7684;&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#xFF1B;<code>false</code> &#x663E;&#x793A;&#x5168;&#x90E8;&#x7684;&#xFF08;&#x6709;&#x6548;&#xFF0C;&#x65E0;&#x6548;&#xFF09;&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#x3002; 
+</li></ul>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9;2016 &#x4E2D;&#x592E;&#x76D1;&#x7BA1;&#x4FE1;&#x606F;&#x5E73;&#x53F0;&#x516C;&#x5171;&#x7EC4;&#x4EF6;&#x7EC4; | <a href="http://nerisdev.csrc.gov.cn:2174/tech-widget-test" target="_blank">&#x516C;&#x5171;&#x7EC4;&#x4EF6;&#x6D4B;&#x8BD5;&#x7CFB;&#x7EDF;</a> all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-09-26 10:57:11
+</span></footer>
+
+<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#x6811;&#x5F62;&#x7EC4;&#x4EF6;">&#x90E8;&#x95E8;&#x4EBA;&#x5458;&#x6811;&#x5F62;&#x7EC4;&#x4EF6;</a></p><li><a href="#&#x793A;&#x610F;&#x56FE;">1. &#x793A;&#x610F;&#x56FE;</a></li><li><a href="#&#x4F9D;&#x8D56;">2. &#x4F9D;&#x8D56;</a></li><li><a href="#&#x9875;&#x9762;&#x5F15;&#x5165;">3. &#x9875;&#x9762;&#x5F15;&#x5165;</a></li><li><a href="#&#x65B9;&#x6CD5;&#x8C03;&#x7528;">4. &#x65B9;&#x6CD5;&#x8C03;&#x7528;</a></li><li><a href="#settings&#x53C2;&#x6570;&#x914D;&#x7F6E;">5. settings&#x53C2;&#x6570;&#x914D;&#x7F6E;</a></li><ul><li><a href="#selectType">5.1. selectType</a></li><li><a href="#checkType">5.2. checkType</a></li><li><a href="#handleFun">5.3. handleFun</a></li><li><a href="#isEcho">5.4. isEcho</a></li><li><a href="#expand">5.5. expand</a></li><li><a href="#level">5.6. level</a></li><li><a href="#rootId">5.7. rootId</a></li><li><a href="#title">5.8. title</a></li><li><a href="#echoData">5.9. echoData</a></li><li><a href="#filterDatas">5.10. filterDatas</a></li><li><a href="#showDatas">5.11. showDatas</a></li><li><a href="#showParentNode">5.12. showParentNode</a></li><li><a href="#activeFlag">5.13. activeFlag</a></li></ul></ul></div><a href="#&#x793A;&#x610F;&#x56FE;" id="goTop"><i class="fa fa-arrow-up"></i></a>
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="base-tree.html" class="navigation navigation-prev " aria-label="Previous page: 基础树形组件">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../nerisSelectUntils/" class="navigation navigation-next " aria-label="Next page: 部门分类选择">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"部门人员树形组件","level":"1.8.2","depth":2,"next":{"title":"部门分类选择","level":"1.9","depth":1,"path":"components/nerisSelectUntils/README.md","ref":"./components/nerisSelectUntils/README.md","articles":[{"title":"部门分类选择组件","level":"1.9.1","depth":2,"path":"components/nerisSelectUntils/nerisSelectUnits.md","ref":"./components/nerisSelectUntils/nerisSelectUnits.md","articles":[]},{"title":"部门分类单页选择组件","level":"1.9.2","depth":2,"path":"components/nerisSelectUntils/nerisUnitsSinglePage.md","ref":"./components/nerisSelectUntils/nerisUnitsSinglePage.md","articles":[]},{"title":"部门分类多页选择组件","level":"1.9.3","depth":2,"path":"components/nerisSelectUntils/nerisUnitsMultiPage.md","ref":"./components/nerisSelectUntils/nerisUnitsMultiPage.md","articles":[]}]},"previous":{"title":"基础树形组件","level":"1.8.1","depth":2,"path":"components/tree/base-tree.md","ref":"./components/tree/base-tree.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","-lunr","-sharing","include-codeblock","toggle-chapters","tbfed-pagefooter","asciitree","copy-code-button","navigator","expandable-chapters-small","anchors","custom-favicon","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright ©2016 中央监管信息平台公共组件组 | <a href='http://nerisdev.csrc.gov.cn:2174/tech-widget-test'>公共组件测试系统</a>","modify_label":"文件修订时间："},"livereload":{},"asciitree":{"leadingChar":"no need, because plugin will guess leadingChar.","trimRight":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"assets/imgs/favicon.ico","navigator":{},"custom-favicon":{},"expandable-chapters-small":{},"copy-code-button":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","author":"gongph","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"公共组件API文档","language":"zh-hans","links":{"sidebar":{"公共组件API文档":"javascript:void(0);"}},"gitbook":"2.x.x","description":"公共组件API文档"},"file":{"path":"components/tree/dept-tree.md","mtime":"2019-09-26T02:57:11.087Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2019-09-26T05:33:51.581Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

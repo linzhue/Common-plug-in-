@@ -1,0 +1,24 @@
+{
+  "name": "gitbook-sample",
+  "version": "1.0.0",
+  "description": "gitbook sample",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-codeblock-filename": "^0.0.7",
+    "gitbook-plugin-include-codeblock": "^1.9.0",
+    "gitbook-plugin-sectionx": "^2.1.0",
+    "gitbook-plugin-toggle-chapters": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gitbook",
+    "book",
+    "git",
+    "github"
+  ],
+  "author": "gongph",
+  "license": "ISC"
+}
